@@ -1,0 +1,384 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Wang Zhiling</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Zhiling is currently the algorithm engineer in Meituan Vision AI Department, Beijing, China. He received the B.E. degree from the School of Geodesy and Geomatics, Wuhan University, Wuhan, China, in 2019. Then he received the Master degree in computer science from Chinese Academy of Sciences University, Beijing, China, in 2022.">
+    <meta name="keywords" content="His research interests include food computing, fine-grained image recognition and retrieval.">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+    <script type="text/javascript" src="https://tajs.qq.com/stats?sId=66567651" charset="UTF-8"></script>
+    <script>
+    var _mtac = {};
+    (function() {
+        var mta = document.createElement("script");
+        mta.src = "//pingjs.qq.com/h5/stats.js?v2.0.4";
+        mta.setAttribute("name", "MTAH5");
+        mta.setAttribute("sid", "500724622");
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(mta, s);
+    })();
+    </script>
+
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+body{margin:0;padding:0;background-color:#eee}
+a{color:#dc906a}
+a:hover{color:#59301b}
+#background{position:fixed;top:0;overflow:hidden;height:0}
+#main{z-index:2;margin:0 auto;position:absolute;top:25%;width:100%;text-align:center;}
+#main-content{background:rgba(238,238,238,0.95);margin:0 auto;padding:0;text-align:center;cursor:default;text-align:center}
+#main-content-container{margin:auto;padding: 0 2em 20px;max-width:1080px}
+#main-content-container .col-avatar{text-align:center}
+#main-content-container .col-info{text-align:center}
+#main-content-container .col-link{text-align:center}
+#main-content-container .textbox-info{display:inline-block;margin:0 auto;text-align:left}
+#main-content-container .col-info .email{color:#666; font-size:14px}
+#main-more-container{background:#ffffff;width:100%;padding:0 30px}
+#main-bio-container{margin:auto;padding: 0 0em;max-width:1080px;text-align:left;padding-top:30px;max-width:1080px}
+#main-pub-container{margin:auto;padding: 0 0em;max-width:1080px;text-align:left;padding-top:30px;max-width:1080px}
+#avatar{z-index:100;width:200px;height:200px;margin-top:-125px;border-radius:100%;box-shadow:0 0 0 0.3em #fff;opacity:1;}
+#name{margin:20px 0 0;color:#5a301b;font-size:1.85em;font-family:Source Sans Pro,Helvetica,sans-serif}
+#link-ul{margin:20px auto auto;padding:0;list-style:none;text-align:center} .link-li{display:inline-block;margin:auto;padding:0 10px;color:#ccc;line-height:10px}
+.subtitle{color:#5a301b;}
+.link-li a{width:45px;height:45px;color:#ccc;padding:0;font-size:45px;line-height:45px}
+.link-li a:focus,.link-li a:hover{text-decoration:none;cursor:hand}
+.link-li a.border{border:1px solid #ccc;border-radius:100%;}
+.link-li a.padding{padding:0px 0px;font-size:22px}
+#main-pub-container .pub-card{width: 100%;padding-bottom:20px}
+#main-pub-container .pub-card .conference{font-weight:600}
+#main-pub-container .pub-card-body{width: 100%;background:transparent;padding-left:0px}
+#main-pub-container .row{margin:0}
+#main-pub-container .col-l, #main-pub-container .col-r {vertical-align:top;display:inline-block;margin:0;padding-left:0px}
+#footer{margin:0;padding:1.5em 0 0.5em;background:#f4f4f4;opacity:0.95;font-size:14px;line-height:12px;text-align:center}
+#footer-cr{margin:0 auto;text-align:left;display:inline-block;font-size:12px;line-height:0px}
+#wave-canvas{display:block;position:relative;top:0;left:0;width:100%;height:150px;border:0}
+.highlight{color:#BB2222;font-weight:600}
+    </style>
+</head>
+<body>
+<img src="data/imgs/bg2.jpeg" id="background" class="" />
+<div id="main">
+    <canvas id="wave-canvas"></canvas>
+    <div id="main-content">
+        <div id="main-content-container" class="container">
+          <div class="row">
+            <div class="col-md-12 col-xl-4 col-avatar">
+                <img src="data/imgs/me2.jpeg" id="avatar" class="" />
+            </div>
+            <div class="col-md-12 col-xl-4 col-info">
+                <div class="textbox-info">
+                    <h1 id="name">Wang Zhiling (王致岭)</h1>
+                    <p class="email">Email: zhilingwang9681@gmail.com</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-xl-4 col-link">
+                <ul id="link-ul" class="clear">
+                    <li class="link-li">
+                        <p><a class="fa fa-envelope" aria-hidden="true" href="mailto:zhilingwang9681@gmail.com"></a></p>
+                    </li>
+                    <li class="link-li">
+                        <p><a class="fa fa-github" aria-hidden="true" href="https://github.com/RollingWang"></a></p>
+                    </li>
+                    <li class="link-li">
+                        <p><a class="fa fa-file-text-o" aria-hidden="true" href="data/zhiling_resume.pdf"></a></p>
+                    </li>
+                    <li class="link-li">
+                        <p><a class="fa fa-graduation-cap" aria-hidden="true" href="https://scholar.google.com/citations?user=ChJurnIAAAAJ&hl=zh-CN&oi=ao"></a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="main-more-container">
+        <div id="main-bio-container">
+            <p>
+            Currently, I am a algorithm engineer in  <a href="https://ai.meituan.com/"> Meituan Vision AI Department</a>, Beijing, China.
+            </p>
+
+            <p>
+            I received the B.E. degree from <a href="http://main.sgg.whu.edu.cn/">the School of Geodesy and Geomatics, Wuhan University</a> , Wuhan, China, in 2019. Then I received the Master degree in computer science from <a href="http://vipl.ict.ac.cn/en/index.html">VIPL Group</a>, <a href="https://www.ucas.ac.cn/">Chinese Academy of Sciences University</a>, Beijing, China, in 2022. 
+            I was in <a href="http://123.57.42.89/FoodComputing__Home.html"></a>the food computing group,and my supervisors are <a href="http://123.57.42.89/foodcomputing/weiqingmin/home.html">Weiqing Min</a> and <a href="https://scholar.google.com/citations?user=4Rvn-ykAAAAJ&hl=zh-CN">Shuqiang Jiang</a> .
+            </p>
+            
+            <!--
+            <p>
+            From 2018 to 2019, I was a research engineer at <a href="https://larc.smu.edu.sg/">Living Analytics Research Centre (LARC)</a>, Singapore Management University (SMU). 
+            I worked closely with <a href="https://sites.google.com/view/stevenhoi/home">Prof Steven Hoi</a> and <a href="https://sites.google.com/site/aseplim/">Prof Ee-peng Lim</a> on <a href="https://foodai.org/">FoodAI project</a>. 
+            I started my research journey as an intern in <a href="http://english.ia.cas.cn/">CASIA</a> and <a href="https://www.horizon.ai/?lang=en-US">Horizon Robotics Inc., Beijing</a> in my undergraduate years, where I really had a great time. 
+            </p>-->
+
+            <!--
+            <h5 class="subtitle">Research Highlights</h5>
+
+            <ul>
+                <li><b>Concept learning</b>: visual-semantic representation [COLING18] [CVPR19], visually-grounded language acquisition [ICLR19a].</li>
+                <li><b>Skill learning</b>: transfer learning in DRL [ICLR18].</li>
+                <li><b>Rule learning</b>: neural inductive logic [ICLR19b].</li>
+            </ul>-->
+
+        </div>
+
+        <div id="main-pub-container">
+            <h4 class="subtitle">Research Interests</h4>
+
+            <ul>
+                <li>Fine-Grained Image Recognition and Retrieval</li>
+                <li>Multi-label Image Recognition</li>
+                <li>Image Detection and Computer Vision</li>
+            </ul>
+
+            <h4 class="subtitle">Publications</h4>
+
+<!--             <h5 class="subtitle-aux">Preprints</h5>
+        
+
+            <br />
+            <br /> -->
+
+            <br />
+
+            <!--  <h5 class="subtitle-aux">2023</h5>-->
+
+             <div class="pub-card">
+                <div class="row">
+                    <div class="col-l col-md-12 col-xl-3">
+                        <center><img src="data/projects/pami_demo.png" width="100%" /></center>
+                    </div>
+                    <div class="col-r col-md-12 col-xl-9">
+                        <div class="pub-card-body">
+                            <h5 class="card-title">Large Scale Visual Food Recognition
+                            </h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Weiqing Min, <u>Zhiling Wang</u>, Yuxin Liu, Mengjiang Luo, Liping Kang, Xiaoming Wei, Xiaolin Wei, 
+                                Shuqiang Jiang</h6>
+                            <p class="card-text">
+                            <span class="conference">IEEE Transactions on Pattern Analysis and Machine Intelligence (CCF-A)</span>
+                            <a href="https://arxiv.org/pdf/2103.16107.pdf">[Paper]</a>
+                            <a href="http://123.57.42.89/FoodProject.html">[Dataset]</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            <br />
+            <br />
+
+             <div class="pub-card">
+                <div class="row">
+                    <div class="col-l col-md-12 col-xl-3">
+                        <center><img src="data/projects/tip_demo.png" width="100%" /></center>
+                    </div>
+                    <div class="col-r col-md-12 col-xl-9">
+                        <div class="pub-card-body">
+                            <h5 class="card-title">Ingredient-Guided Region Discovery and Relationship Modeling for Food Category-Ingredient Prediction
+                            </h5>
+                            <h6 class="card-subtitle mb-2 text-muted"><u>Zhiling Wang</u>, Weiqing Min, Zhuo Li, Liping Kang, Xiaoming Wei, Xiaolin Wei, 
+                               Shuqiang Jiang</h6>
+                            <p class="card-text">
+                            <span class="conference">IEEE Transactions on Image Processing (CCF-A)</span>
+                            <a href="https://ieeexplore.ieee.org/document/9846887?source=authoralert">[Paper]</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+            <br />
+            <br />
+
+             <div class="pub-card">
+                <div class="row">
+                    <div class="col-l col-md-12 col-xl-3">
+                        <center><img src="data/projects/mm20_demo.png" width="100%" /></center>
+                    </div>
+                    <div class="col-r col-md-12 col-xl-9">
+                        <div class="pub-card-body">
+                            <h5 class="card-title">ISIA Food-500: A Dataset for Large-Scale Food Recognition via Stacked Global-Local Attention Network
+                            </h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Weiqing Min, Linhu Liu, <u>Zhiling Wang</u>, Zhengdong Luo, Xiaoming Wei, Xiaolin Wei and Shuqiang Jiang</h6>
+                            <p class="card-text">
+                            <span class="conference">ACM MM 2020 (CCF-A)</span>
+                            <a href="http://123.57.42.89/foodcomputing/weiqingmin/Papers/ISIA%20Food-500%20A%20Dataset%20for%20Large-Scale%20Food%20Recognition%20via%20Stacked%20Global-Local%20Attention%20Network.pdf">[Paper]</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+            <br />
+            <br /> 
+
+            <h4 class="subtitle">Competitions</h4>
+
+            <br /> 
+
+            <div class="pub-card">
+                <div class="row">
+                    <div class="col-l col-md-12 col-xl-3">
+                        <center><img src="data/projects/HerbariumChallengeBanner.png" width="100%" /></center>
+                    </div>
+                    <div class="col-r col-md-12 col-xl-9">
+                        <div class="pub-card-body">
+                            <h6 class="card-subtitle">Our team <i class="mb-2 text-muted">(Shuhao Cui, <u>Zhiling Wang</u>, Ling Kang, Junshi Huang, Xiaoming Wei)</i> won the 1st place at the Herbarium Challenge 2022 in the 9th Workshop on Fine-Grained Visual Categorization
+                            </h6>
+                            <p class="card-text">
+                            <br /> 
+                            <span class="conference">CVPR 2022 FGVC9 Workshop </span>
+                            <a href="https://www.kaggle.com/competitions/herbarium-2022-fgvc9/leaderboard">[Leaderboard]</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            <br />
+            <br /> 
+            <div class="pub-card">
+                <div class="row">
+                    <div class="col-l col-md-12 col-xl-3">
+                        <center><img src="data/projects/workshops3.png" width="100%" /></center>
+                    </div>
+                    <div class="col-r col-md-12 col-xl-9">
+                        <div class="pub-card-body">
+                            <h6 class="card-subtitle">Our team held the workshop "LargeFineFoodAI: Large-Scale Fine-Grained Food AnalysIs"
+                            </h6>
+                            <br /> 
+                            <p class="card-text">
+                            <span class="conference">ICCV 2021 Workshops </span>
+                            <a href="https://foodai-workshop.meituan.com/foodai2021.html#index">[Website]</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            <br />
+            <br /> 
+    
+    
+
+    <div id="footer">
+        <p>Youth gives you light please don't let it down &copy; 2023</p>
+        <p>Last updated on Jan 16, 2023</p>
+        <div id="footer-cr">
+            <!-- <p><center>Background photo: NTU @ Singapore, 2019.</center></p>-->
+            <!-- <p><center>Avatar photo: Universal Studios Hollywood @ LA, USA, 2019.</center></p> -->
+        </div>
+        <!--<div id="footer-cr">
+            <p>Background photo: Bondi Beach @ Sydney, Australia, 2017.</p>
+            <p>Avatar photo: MIT @ Cambridge, USA, 2018.</p>
+        </div>-->
+    </div>
+</div>
+
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script type="text/javascript" src="static/js/jquery.color.min.js"></script>
+<script type="text/javascript" src="static/js/wave.js"></script>
+<script type="text/javascript">
+$(function() {
+    getRealSize = function(bgImg) {
+        var img = new Image();
+        img.src = bgImg.attr("src");
+        var width = img.width,
+            height = img.height;
+        return {
+            width: width,
+            height: height
+        }
+    };
+    getRealWindowSize = function() {
+        var winWidth = null,
+            winHeight = null;
+        if (window.innerWidth) winWidth = window.innerWidth;
+        else if ((document.body) && (document.body.clientWidth)) winWidth = document.body.clientWidth;
+        if (window.innerHeight) winHeight = window.innerHeight;
+        else if ((document.body) && (document.body.clientHeight)) winHeight = document.body.clientHeight;
+        if (document.documentElement && document.documentElement.clientHeight && document.documentElement.clientWidth) {
+            winHeight = document.documentElement.clientHeight;
+            winWidth = document.documentElement.clientWidth
+        }
+        return {
+            width: winWidth,
+            height: winHeight
+        }
+    };
+    fullBg = function() {
+        var bgImg = $("#background");
+        var mainContainer = $("#main");
+        var firstFire = null;
+
+        function resizeImg() {
+            var realSize = getRealSize(bgImg);
+            var imgWidth = realSize.width;
+            var imgHeight = realSize.height;
+
+            if (imgWidth == 0 || imgHeight == 0) {
+                setTimeout(function() {
+                    resizeImg();
+                }, 200);
+            }
+
+            console.log(realSize);
+            var realWinSize = getRealWindowSize();
+            var winWidth = realWinSize.width;
+            var winHeight = realWinSize.height;
+            var widthRatio = winWidth / imgWidth;
+            var heightRatio = winHeight / imgHeight;
+            console.log(realWinSize);
+            if (widthRatio > heightRatio) {
+                bgImg.width(imgWidth * widthRatio + 'px').height(imgHeight * widthRatio + 'px').css({'top':
+                    -(imgHeight * widthRatio - winHeight) / 2 + 'px', 'left': '0'})
+            } else {
+                bgImg.width(imgWidth * heightRatio + 'px').height(imgHeight * heightRatio + 'px').css({'left':
+                    -(imgWidth * heightRatio - winWidth) / 10 * 7 + 'px', 'top': '0'})
+            }
+            // mainContainer.css({
+            //     width: winWidth,
+            //     height: winHeight
+            // });
+        }
+
+        resizeImg();
+        window.onresize = function() {
+            if (firstFire === null) {
+                firstFire = setTimeout(function() {
+                    resizeImg();
+                    firstFire = null
+                }, 100)
+            }
+        }
+    };
+
+    targetColor = $("#name").css("color")
+    animatedLink = function(speed) {
+        $(".link-li").hover(function() {
+            $(this).find('.icon').animate({
+                color: targetColor,
+                borderColor: targetColor
+            }, speed);
+            $(this).find('.caption').animate({
+                color: '#798350'
+            })
+        }, function() {
+            $(this).find('.icon').animate({
+                borderColor: '#cccccc',
+                color: '#cccccc'
+            }, speed);
+            $(this).find('.caption').animate({
+                color: '#cccccc'
+            })
+        })
+    };
+    fullBg();
+    animatedLink(400)
+});
+</script>
+</body>
+</html>
+
